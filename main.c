@@ -4,11 +4,9 @@
 
 int main()
 {
-	char *code =
-"++++++++"
-"[>+.+.+.+.+.+.+.+.+.+.<-]"
-"++.";
+	char *code = "[++++++++++,.----------]";
 	
 	run(code, stdin, stdout);
 	return EXIT_SUCCESS;
 }
+
